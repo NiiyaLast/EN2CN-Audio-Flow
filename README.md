@@ -18,7 +18,7 @@
 
 - **音频分离**: Demucs (Meta AI)
 - **语音转录**: OpenAI Whisper
-- **文本翻译**: Ollama + Qwen2.5
+- **文本翻译**: Ollama + Qwen3
 - **语音合成**: OpenVoice V2 / F5-TTS
 - **音频处理**: FFmpeg + PyDub
 
@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 # 安装并启动Ollama
 # 下载: https://ollama.com/download
-ollama pull qwen2.5:7b
+ollama pull Qwen3:7b
 ```
 
 ### 基本使用
@@ -97,7 +97,7 @@ python quick_start.py --input "path/to/your/audio.wav"
 
 1. **音频分离**: 使用Demucs分离人声和背景音
 2. **语音转录**: 使用Whisper将英文语音转为文本
-3. **文本翻译**: 使用Ollama+Qwen2.5翻译为中文
+3. **文本翻译**: 使用Ollama+Qwen3翻译为中文
 4. **语音合成**: 使用OpenVoice V2克隆音色并合成中文语音
 5. **音频合成**: 将中文语音与原背景音混合
 
