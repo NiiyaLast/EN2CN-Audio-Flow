@@ -1,0 +1,33 @@
+# 基础依赖
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.30.0
+numpy>=1.21.0
+scipy>=1.7.0
+librosa>=0.9.0
+soundfile>=0.12.0
+pydub>=0.25.0
+ffmpeg-python>=0.2.0
+
+# 音频处理
+demucs>=4.0.0
+openai-whisper>=20230314
+
+# 文本处理
+requests>=2.28.0
+pyyaml>=6.0
+click>=8.0.0
+
+# 语音合成
+TTS>=0.13.0
+
+# 工具库
+tqdm>=4.64.0
+colorama>=0.4.5
+psutil>=5.9.0
+
+# 开发工具
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=22.0.0
+flake8>=5.0.0
